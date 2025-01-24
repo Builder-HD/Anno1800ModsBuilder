@@ -1,0 +1,673 @@
+<!-- GUID: Colonialist: 1507000086-->
+<!-- GUID: Colonialist Description: 1507000087-->
+<!-- GUID: Colonialist Workforce: 1507000088-->
+<!-- GUID: Colonialist Workforce Description: 1507000089-->
+<!-- GUID: Colonialist Satisfaction None: 1507000090-->
+<!-- GUID: Colonialist Satisfaction Unhappy: 1507000091-->
+<!-- GUID: Colonialist Satisfaction Content: 1507000092-->
+<!-- GUID: Colonialist Satisfaction Happy: 1507000093-->
+<!-- GUID: Colonialist Satisfaction Perfect: 1507000094-->
+<!-- GUID: Colonialist House: 1507000095-->
+<!-- GUID: Colonialist House Description: 1507000096-->
+<!-- GUID: Colonialist Construction Menu: 1507000097-->
+<!-- GUID: Colonialist Product List: 1507000099-->
+
+<!-- GUID: Newspaper: 1507000100-->
+<!-- GUID: Newspaper Description: 1507000101-->
+<!-- GUID: Fancy Dinners: 1507000102-->
+<!-- GUID: Fancy Dinners Description: 1507000103-->
+<!-- GUID: Ball Gowns: 1507000104-->
+<!-- GUID: Ball Gowns Description: 1507000105-->
+<!-- GUID: Pineapples: 1507000106-->
+<!-- GUID: Pineapples Description: 1507000107-->
+<!-- GUID: Chandelier: 1507000108-->
+<!-- GUID: Chandelier Description: 1507000109-->
+<!-- GUID: Marble Statues: 1507000110-->
+<!-- GUID: Marble Statues Description: 1507000111-->
+<!-- GUID: Exotic Pets: 1507000112-->
+<!-- GUID: Exotic Pets Description: 1507000113-->
+<!-- GUID: Diamonds: 1507000114-->
+<!-- GUID: Diamonds Description: 1507000115-->
+
+<ModOps>
+
+
+<!-- GUID: Newspaper: 1507000100-->
+<!-- GUID: Newspaper Description: 1507000101-->
+<!-- GUID: Fancy Dinners: 1507000102-->
+<!-- GUID: Fancy Dinners Description: 1507000103-->
+<!-- GUID: Ball Gowns: 1507000104-->
+<!-- GUID: Ball Gowns Description: 1507000105-->
+<!-- GUID: Pineapples: 1507000106-->
+<!-- GUID: Pineapples Description: 1507000107-->
+<!-- GUID: Chandelier: 1507000108-->
+<!-- GUID: Chandelier Description: 1507000109-->
+<!-- GUID: Marble Statues: 1507000110-->
+<!-- GUID: Marble Statues Description: 1507000111-->
+<!-- GUID: Exotic Pets: 1507000112-->
+<!-- GUID: Exotic Pets Description: 1507000113-->
+<!-- GUID: Diamonds: 1507000114-->
+<!-- GUID: Diamonds Description: 1507000115-->
+
+  <!-- Population Needs -->
+  <ModOp GUID='5403' Type="addNextSibling">
+    <Asset>
+      <Template>PopulationLevel7</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000086</GUID>
+          <Name>Colony01 Population 4</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/campaign_portrait_07.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Colonialists</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60877</LineID>
+        </Text>
+        <PopulationLevel7>
+          <PopulationInputs>
+            <!-- Basic Needs-->
+            <Item>
+              <Product>1507000102</Product>
+              <!--Fancy Dinners-->
+              <Amount>2.898E-05</Amount>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <FullWeightPopulationCount>5000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>1507000104</Product>
+              <!--Ball Gowns-->
+              <Amount>2.898E-05</Amount>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <FullWeightPopulationCount>5000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>1010225</Product>
+              <!--Steam Carraiges-->
+              <Amount>2.898E-05</Amount>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <FullWeightPopulationCount>5000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>120022</Product>
+              <!--Electricity-->
+              <Amount>2.898E-05</Amount>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <FullWeightPopulationCount>5000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>1010208</Product>
+              <!--Electricity-->
+              <Amount>2.898E-05</Amount>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <FullWeightPopulationCount>5000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>5395</Product>
+              <!--Fans-->
+              <Amount>2.898E-05</Amount>
+              <HappinessValue>6</HappinessValue>
+              <MoneyValue>40</MoneyValue>
+              <FullWeightPopulationCount>5000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            </Item>
+
+            <!-- Luxury Needs-->
+            <Item>
+              <Product>1507000106</Product>
+              <!--Pineapples-->
+              <Amount>2.898E-05</Amount>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>90</MoneyValue>
+              <FullWeightPopulationCount>8000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>5999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>1507000108</Product>
+              <!--Newspaper-->
+              <Amount>2.898E-05</Amount>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>90</MoneyValue>
+              <FullWeightPopulationCount>8000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>5999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>1507000100</Product>
+              <!--Newspaper-->
+              <Amount>2.898E-05</Amount>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>90</MoneyValue>
+              <FullWeightPopulationCount>8000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>5999</NoWeightPopulationCount>
+            </Item>
+            <Item>
+              <Product>1010259</Product>
+              <!--Cigars-->
+              <Amount>2.898E-05</Amount>
+              <SupplyWeight>5</SupplyWeight>
+              <MoneyValue>90</MoneyValue>
+              <FullWeightPopulationCount>8000</FullWeightPopulationCount>
+              <NoWeightPopulationCount>5999</NoWeightPopulationCount>
+            </Item>
+
+            <!-- Lifestyle Needs-->
+            <Item>
+              <Product>133532</Product>
+              <!--Souvenier-->
+              <Amount>0.0003333333</Amount>
+              <SupplyWeight>4</SupplyWeight>
+              <MoneyValue>24</MoneyValue>
+              <AdditionalGlobalUnlockRequirement>
+                <Population>601379</Population>
+                <MinPopulationAmount>2000</MinPopulationAmount>
+              </AdditionalGlobalUnlockRequirement>
+              <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+              <IsBonusNeed>1</IsBonusNeed>
+            </Item>
+          </PopulationInputs>
+          <DefaultResidence>1507000095</DefaultResidence>
+          <!--residence_colony01_tier04-->
+          <PopulationOutputs>
+            <Item>
+              <Product>1507000088</Product>
+              <!--colony workforce 4-->
+              <Amount>40</Amount>
+            </Item>
+          </PopulationOutputs>
+          <PopulationParticipant>HighLife_Donald</PopulationParticipant>
+          <PopulationAtWorkParticipant>HighLife_Donald</PopulationAtWorkParticipant>
+          <MoodText>
+            <Angry>
+              <Text>1507000090</Text>
+              <!--Satisfaction Colonialist None-->
+            </Angry>
+            <Unhappy>
+              <Text>1507000091</Text>
+              <!--Satisfaction Colonialist Unhappy-->
+            </Unhappy>
+            <Neutral>
+              <Text>1507000092</Text>
+              <!--Satisfaction Colonialist Content-->
+            </Neutral>
+            <Happy>
+              <Text>1507000093</Text>
+              <!--Satisfaction Colonialist Happy-->
+            </Happy>
+            <Euphoric>
+              <Text>1507000094</Text>
+              <!--Satisfaction Colonialist Perfect-->
+            </Euphoric>
+          </MoodText>
+        </PopulationLevel7>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- START CREATE PRODUCTLIST - Colonialist -->
+  <ModOp Type="addNextSibling" GUID='501995'>
+    <Asset>
+      <Template>ProductList</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000099</GUID>          <!-- Colonialist Consumer Goods ProductList -->
+          <Name>Colonialist Consumer Goods</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/campaign_portrait_07.png</IconFilename>
+        </Standard>
+        <ProductList>
+          <List>
+            <Item>
+              <Product>120016</Product>
+            </Item>
+          </List>
+        </ProductList>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END CREATE PRODUCTLIST - Colonialist -->
+
+<!-- START Colonialist - PopulationGroup7 -->
+  <ModOp GUID='15000083' Type="addNextSibling">
+    <Asset>
+      <Template>PopulationGroup7</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000098</GUID>          <!-- Colonialist - PopulationGroup7 -->
+          <Name>Colonialist</Name>
+        </Standard>
+        <PopulationGroup7>
+          <PopulationLevels>
+            <Item>
+              <Level>1507000086</Level>              <!-- Colonialist - PopulationLevel7 -->
+            </Item>
+          </PopulationLevels>
+          <Regional>Colony01</Regional>
+        </PopulationGroup7>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END Colonialist - PopulationGroup7 -->
+
+  <!-- Workfore -->
+  <ModOp GUID='5406' Type="AddNextSibling">
+    <Asset>
+      <Template>Product</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000088</GUID>
+          <Name>colony workforce 4</Name>
+          <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_culture.png</IconFilename>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Colonialist Workforce</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60206</LineID>
+        </Text>
+        <Product>
+          <StorageLevel>Area</StorageLevel>
+          <DeltaOnly>1</DeltaOnly>
+          <IsWorkforce>1</IsWorkforce>
+        </Product>
+        <ExpeditionAttribute />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- GUID: Colonialist Satisfaction None: 1507000090-->
+  <!-- GUID: Colonialist Satisfaction Unhappy: 1507000091-->
+  <!-- GUID: Colonialist Satisfaction Content: 1507000092-->
+  <!-- GUID: Colonialist Satisfaction Happy: 1507000093-->
+  <!-- GUID: Colonialist Satisfaction Perfect: 1507000094-->
+
+  <!-- Diffrent Moods -->
+  <ModOp GUID='6043' Type="AddNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000090</GUID>
+          <Name>Satisfaction Colonialist None</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Angry Colonialist</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>59801</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID='6044' Type="AddNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000091</GUID>
+          <Name>Satisfaction Colonialist Unhappy</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Unhappy Colonialist</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>59802</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID='6045' Type="AddNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000092</GUID>
+          <Name>Satisfaction Colonialist Content</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Content Colonialist</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>59803</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID='6046' Type="AddNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000093</GUID>
+          <Name>Satisfaction Colonialist Happy</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Happy Colonialist</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>59804</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp GUID='6047' Type="AddNextSibling">
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000094</GUID>
+          <Name>Satisfaction Colonialist Perfect</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Euphoric Colonialist</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>59805</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Colonialist House -->
+  <!-- GUID: Colonialist House: 1507000095-->
+  <!-- GUID: Colonialist House Description: 1507000096-->
+  <ModOp GUID='5405' Type="AddNextSibling">
+    <Asset>
+      <Template>ResidenceBuilding7_Colony</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000095</GUID>
+          <Name>residence_colony01_tier04</Name>
+          <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_culture.png</IconFilename>
+          <InfoDescription>163059</InfoDescription>
+          <!--residence 01 infocorner-->
+        </Standard>
+        <Blocking />
+        <Building>
+          <BuildingType>Residence</BuildingType>
+          <PickingAsset>5403</PickingAsset>
+          <!--residence_colony01_tier01-->
+          <AssociatedRegions>Colony01</AssociatedRegions>
+        </Building>
+        <Cost>
+          <Costs>
+            <Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>              <!-- Timber - Product -->
+                <Amount>5</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>              <!-- Timber - Product -->
+                <Amount>3</Amount>
+              </Item>
+            </Item>
+          </Costs>
+        </Cost>
+        <Mesh />
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>
+                data/dlc06/graphics/buildings/residence/residence_tier06_estate01/residence_tier06_estate01.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>
+                data/dlc06/graphics/buildings/residence/residence_tier06_estate02/residence_tier06_estate02.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>
+                data/dlc06/graphics/buildings/residence/residence_tier06_estate03/residence_tier06_estate03.cfg</Filename>
+            </Item>
+          </Variations>
+          <Skins>
+            <DefaultSkinName>1507000095</DefaultSkinName>
+            <DefaultSkinDescription>23853</DefaultSkinDescription>
+            <!--ChangeBuildingSkin_toDefaultSkinDesc-->
+            <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+            <!--Classic-->
+          </Skins>
+          <DefaultParticipant>HighLife_Donald</DefaultParticipant>
+        </Object>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList />
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>HighLife_Donald</ParticipantMessageArcheType>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Colonialist Residence</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60126</LineID>
+        </Text>
+        <Constructable>
+          <ConstructionMenuIcon>1507000086</ConstructionMenuIcon>
+          <!--Colony01 Population 4-->
+        </Constructable>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+          <!--Anno 1800 DLC - New World Rising-->
+        </Locked>
+        <Upgradable>
+          <UpgradeCost />
+        </Upgradable>
+        <SoundEmitter>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+              <!--wwe_sfx_aui_bld_3d_renovate-->
+            </Item>
+          </BuildingRepaired>
+          <MaterialType>Wood</MaterialType>
+        </SoundEmitter>
+        <Infolayer />
+        <FeedbackController />
+        <Residence7>
+          <PopulationLevel7>1507000086</PopulationLevel7>
+          <!--Colony01 Population 4-->
+          <ResidentMax>40</ResidentMax>
+          <ResidentsRequiredForUpgrade>40</ResidentsRequiredForUpgrade>
+          <ResidentsOccupancyThresholdMax>0.5</ResidentsOccupancyThresholdMax>
+          <IsBaseResidence>1</IsBaseResidence>
+        </Residence7>
+        <LogisticNode>
+          <REMOVE_THIS_LATER_FeedbackUnitTier>Level2</REMOVE_THIS_LATER_FeedbackUnitTier>
+        </LogisticNode>
+        <AmbientMoodProvider>
+          <Murmur>DLC12_Artistas</Murmur>
+          <DynamicEnvironmentType>ResidenceT1</DynamicEnvironmentType>
+          <HappinessDependentMurmur>
+            <Angry>
+              <Murmur>OberaUnhappy</Murmur>
+            </Angry>
+            <Unhappy>
+              <Murmur>OberaContent</Murmur>
+            </Unhappy>
+            <Neutral>
+              <Murmur>OberaContent</Murmur>
+            </Neutral>
+            <Happy>
+              <Murmur>OberaHappy</Murmur>
+            </Happy>
+            <Euphoric>
+              <Murmur>OberaHappy</Murmur>
+            </Euphoric>
+          </HappinessDependentMurmur>
+        </AmbientMoodProvider>
+        <UpgradeList />
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+          <MaximumHitPoints>2000</MaximumHitPoints>
+        </Attackable>
+        <IncidentInfectable>
+          <Infectable>
+            <Explosion>
+              <Base>0</Base>
+              <Escalated>0</Escalated>
+            </Explosion>
+          </Infectable>
+          <Explosion>
+            <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          </Explosion>
+          <IncidentInfectionChanceFactors>
+            <Fire>
+              <BaseChance>4.5</BaseChance>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>15</DensityDistance>
+            </Fire>
+            <Riot>
+              <ResidenceHappinessFactor>0.6</ResidenceHappinessFactor>
+              <HappinessThreshold>10</HappinessThreshold>
+            </Riot>
+            <Illness>
+              <BaseChance>4.5</BaseChance>
+              <HitpointFactor>0.1</HitpointFactor>
+              <DensityFactor>0.025</DensityFactor>
+              <DensityDistance>15</DensityDistance>
+              <DilapidatedFactor>10</DilapidatedFactor>
+              <FactoryOvertimeFactor>0.3</FactoryOvertimeFactor>
+              <FactoryUndertimeFactor>0.15</FactoryUndertimeFactor>
+              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+            </Illness>
+            <Explosion>
+              <ResidenceFullOvertimeChance>20</ResidenceFullOvertimeChance>
+              <ResidenceFullUndertimeChance>-15</ResidenceFullUndertimeChance>
+            </Explosion>
+          </IncidentInfectionChanceFactors>
+        </IncidentInfectable>
+        <Pausable />
+        <Culture />
+        <StreetActivation />
+        <InfluenceSource />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- New Construction Menu -->
+  <!-- GUID: Colonialist Construction Menu: 1507000097-->
+  <ModOp GUID='5466' Type="AddNextSibling">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000097</GUID>
+          <Name>sa construction menu 4 (tier)</Name>
+          <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_culture.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>1507000095</Building>
+              <!--Aluminum Sewing Machine Chain-->
+            </Item>
+            <Item>
+              <Building>5806</Building>
+              <!--Ballsports Chain-->
+            </Item>
+            <Item>
+              <Building>6610</Building>
+              <!--Mezcal Chain-->
+            </Item>
+            <Item>
+              <Building>7305</Building>
+              <!--colony01 oil chain arista-->
+            </Item>
+            <Item>
+              <Building>5813</Building>
+              <!--Jalea Chain-->
+            </Item>
+            <Item>
+              <Building>7182</Building>
+              <!--Beach Ornament-->
+            </Item>
+          </BuildingList>
+        </ConstructionCategory>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Colonialist</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>60505</LineID>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Add construction Menu to the NW construction Menu -->
+  <ModOp Type="add" GUID="25000035" Path="/Values/ConstructionMenu/RegionMenu/Colony01/CategoryMode/Tier/Categories/">
+    <Item>
+      <Category>1507000097</Category>
+    </Item>
+  </ModOp>
+
+  <!-- START ADD POPULATION TIERS TO GLOBAL POPULATION -->
+  <ModOp Type="addNextSibling" GUID="2001271"
+    Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='15000006']">
+    <Item>
+      <PopulationLevel>1507000086</PopulationLevel>      <!-- Colonialist - PopulationLevel7 -->
+    </Item>
+  </ModOp>
+  <!-- END ADD POPULATION TIERS TO GLOBAL POPULATION -->
+
+  <!-- START ADD POPULATION TIERS TO KEYWORDFILTER -->
+  <ModOp Type="add" GUID="501962" Path="/Values/KeywordFilter/Keywords">
+    <Item>
+      <Keyword>1507000086</Keyword>      <!-- Colonialist - PopulationLevel7 -->
+      <ProductList>1507000099</ProductList>      <!-- Colonialist ProductList -->
+    </Item>
+  </ModOp>
+  <!-- END ADD POPULATION TIERS TO KEYWORDFILTER -->
+
+    <!-- START ADD POPULATION TIERS TO RESIDENCE SCENE -->
+  <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
+    <Item>
+      <PopulationLevel>1507000086</PopulationLevel>      <!-- Colonialist PopulationLevel7 -->
+      <AssignedConfig>502287</AssignedConfig>
+    </Item>
+  </ModOp>
+  <!-- END ADD POPULATION TIERS TO RESIDENCE SCENE -->
+</ModOps>

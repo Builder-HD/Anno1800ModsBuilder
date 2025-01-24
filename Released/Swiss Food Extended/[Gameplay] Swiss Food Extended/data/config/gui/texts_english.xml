@@ -1,0 +1,306 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- START SPECIALIST - Richi der Erfinder des Fondues -->
+    <Text>
+      <GUID>1507000001</GUID>
+      <Text>Richi the Inventor of the Fondues</Text>
+    </Text>
+    <Text>
+      <GUID>1507000002</GUID>
+      <Text>Richi had lived his whole life on a small alp in the mountains. There he usually only had bread and a little cheese for dinner. But Richi wanted a change, so he heated the cheese in a bucket and dipped the bread in it. The cheese fondue was born.</Text>
+    </Text>
+    <!-- END SPECIALIST - Richi der Erfinder des Fondues -->
+
+    <!-- START GOOD - Cheese Fondue -->
+    <Text>
+      <GUID>1507000003</GUID>
+      <Text>Cheese Smelter</Text>
+    </Text>
+    <Text>
+      <GUID>1507000004</GUID>
+      <Text>A Factory, wich melts cheese and turns it into fondue.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000005</GUID>
+      <Text>Cheese Fondue</Text>
+    </Text>
+    <Text>
+      <GUID>1507000006</GUID>
+      <Text>Invented in Switzerland</Text>
+    </Text>
+    <!-- END GOOD - Cheese Fondue -->
+
+    <!-- START GOOD - Fondue Equipment -->
+    <Text>
+      <GUID>1507000007</GUID>
+      <Text>Fondue Equipment</Text>
+    </Text>
+    <Text>
+      <GUID>1507000008</GUID>
+      <Text>Equipment that facilitate the process of making fondue.</Text>
+    </Text>
+    <!-- END GOOD - Fondue Equiment -->
+
+    <!-- END FACTORY - Cheese Melter -->
+
+    <!-- START CHAIN - Cheese Fondue -->
+    <Text>
+      <GUID>1507000009</GUID>
+      <Text>Cheese Fondue</Text>
+    </Text>
+    <Text>
+      <GUID>1507000010</GUID>
+      <Text>Production chain for Cheese Fondue</Text>
+    </Text>
+    <!-- END CHAIN - Cheese Fondue -->
+
+    <!-- START CHAIN - Fondue Equipment Factory -->
+    <Text>
+      <GUID>1507000011</GUID>
+      <Text>Fondue Equipment factory</Text>
+    </Text>
+    <Text>
+      <GUID>1507000012</GUID>
+      <Text>A factory where long forks and buckets are produced</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000017</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000018</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000019</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000020</GUID>
+      <Text>Restaurant: Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000021</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000022</GUID>
+      <Text>Raclette is a typical Swiss dish consisting of melted cheese, paprika and spices. It is often served with potatoes as a side dish.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000024</GUID>
+      <Text>If they attract enough tourists, maybe one of them will bring them a traditional Swiss recipe.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000026</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000027</GUID>
+      <Text>Yellow Jack</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000028</GUID>
+      <Text>Jack, also known as Yellow Jack, never liked cheese. After hearing from his friends how good fondue is, he tried it, but he didn't like it. So he decided to change the recipe and use chocolate instead of cheese and bannans instead of bread.</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000029</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000030</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000031</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000032</GUID>
+      <Text>Maronen</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000033</GUID>
+      <Text>Cafe: Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000034</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000035</GUID>
+      <Text>If you store 10 chestnuts in the Old World, maybe your tourists will think of a way to create a new dish with them</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000036</GUID>
+      <Text>Build a chestnut treeplanter, maybe one of your tourists will think of how to make a pastry from them.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000037</GUID>
+      <Text>Orchard: Chestnuts</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000038</GUID>
+      <Text>Chestnut Trigger</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000039</GUID>
+      <Text>Chestnut</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000040</GUID>
+      <Text>Chestnuts have amazing healing properties and can be roasted for the perfect fairground snack. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000041</GUID>
+      <Text>Chestnut Treeplanter</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000042</GUID>
+      <Text>Roasted chestnuts make for a perfect snack in cold weather. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000043</GUID>
+      <Text>Attract a total of 200 engineers and one of them surely has a new tree species for you. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000045</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000046</GUID>
+      <Text>A traditional Swiss recipe that combines coffee, cream, schnapps and sometimes chocolate.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000047</GUID>
+      <Text>Bar: Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000048</GUID>
+      <Text>Bar: Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000050</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000051</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000052</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000053</GUID>
+      <Text>If you make more schnapps available to the inhabitants of the Arctic, perhaps they will come up with a new recipe?</Text>
+    </Text>
+    <Text>
+      <GUID>1507000055</GUID>
+      <Text>Chestnut Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1507000056</GUID>
+      <Text>Chestnut Stall</Text>
+    </Text>
+    <Text>
+      <GUID>1507000057</GUID>
+      <Text>A chestnut stand certainly looks good in a small winter market</Text>
+    </Text>
+    <Text>
+      <GUID>1507000058</GUID>
+      <Text>Chestnut stall</Text>
+    </Text>
+    <Text>
+      <GUID>1507000059</GUID>
+      <Text>Whether after a visit to the Christmas market or as a small snack on the way home during a cold winter's day, chestnuts keep you nice and warm and are very popular with their inhabitants.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000060</GUID>
+      <Text>Chestnuts, coal</Text>
+    </Text>
+    <Text>
+      <GUID>1507000061</GUID>
+      <Text>Chestnuts, wood</Text>
+    </Text>
+    <Text>
+      <GUID>1507000062</GUID>
+      <Text>Chestnuts, wood</Text>
+    </Text>
+    <Text>
+      <GUID>1507000063</GUID>
+      <Text>Chestnuts, wood</Text>
+    </Text>
+    <Text>
+      <GUID>1507000064</GUID>
+      <Text>Chestnuts that have been roasted with coal. Warms the hands after a cold day in the fields.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000065</GUID>
+      <Text>Chestnuts that have been roasted with wood. Warms the hands after a cold day in the fields or colouring.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000066</GUID>
+      <Text>Chestnut stall</Text>
+    </Text>
+    <Text>
+      <GUID>1507000067</GUID>
+      <Text>Chestnuts are roasted and sold here in the traditional Swiss way to warm the hands of the freezing farmers and labourers.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000068</GUID>
+      <Text>Chestnut Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1507000069</GUID>
+      <Text>Chestnut Buff</Text>
+    </Text>
+    
+<!-- GUID: Vermicelles Recipe: 1507000034 -->
+
+
+<!-- GUID: Chestnuts: 1507000032 -->
+<!-- GUID: Chestnut Treeplanter: 1507000037-->
+<!-- GUID: ChestnutStall Buff 30: 150700055-->
+<!-- GUID: ChestnutStallCoal: 150700056-->
+<!-- GUID: ChestnutStall Description: 150700057-->
+<!-- GUID: Stall Blank: 150700058-->
+<!-- GUID: Coal Stall Recipe: 150700060-->
+<!-- GUID: Wood Stall Recipe: 150700061-->
+<!-- GUID: ChestnutStallWood: 150700062-->
+<!-- GUID: RecipeList Description: 150700063-->
+<!-- GUID: Coal Stall Recipe Description: 150700064-->
+<!-- GUID: Wood Stall Recipe Description: 150700065-->
+<!-- GUID: Recipe List: 150700066-->
+<!-- GUID: Recipe List Description: 150700067-->
+<!-- GUID: ChestnutStall Buff 70: 150700068-->
+<!-- GUID: ChestnutStall Buff 100: 150700069-->
+
+  </ModOp>
+</ModOps>

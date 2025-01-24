@@ -1,0 +1,158 @@
+<ModOps>
+   <!-- START SPECIALIST - Mr. Goldinger -->
+   <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>10000000000157</GUID>
+                    <Name>Mr Goldinger</Name>
+                    <IconFilename>data/graphics/icons/Icon_MrGoldinger.png</IconFilename>
+                    <InfoDescription>10000000000158</InfoDescription>
+                </Standard>
+                 <Text>
+               <LocaText>
+                  <English>
+                     <Text>Item Template</Text>
+                     <Status>Exported</Status>
+                     <ExportCount>1</ExportCount>
+                  </English>
+               </LocaText>
+            </Text>
+             <Item>
+               <MaxStackSize>1</MaxStackSize>
+               <Rarity>Legendary</Rarity>
+               <ItemType>Specialist</ItemType>
+               <Allocation>GuildHouse</Allocation>
+               <TradePrice>1100000</TradePrice>
+               <TradePriceOnlineCurrency>1850000</TradePriceOnlineCurrency>
+            </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>200</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1010227</Product> <!-- Iron -->
+                            <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>1010233</Product> <!-- Gold Ore -->
+                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>836</Product> <!-- Bauxit -->
+                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                 <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>101311</GUID> <!-- Gold Mine -->
+                        </Item>
+                        <Item>
+                            <GUID>24127</GUID> <!-- Iron Mine -->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>60</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>70</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Force</Attribute>
+                            <Amount>10</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>3</Value>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentIllnessIncreaseUpgrade>
+                       <Value>4</Value>
+                    </IncidentIllnessIncreaseUpgrade>
+                    <IncidentRiotIncreaseUpgrade>
+                       <Value>5</Value>
+                    </IncidentRiotIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                       <Value>3</Value>
+                    </IncidentExplosionIncreaseUpgrade>
+                    </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+   </ModOp>
+
+<ModOp Type="add" GUID="192975,192737,192840,193963,192904,192909" Path="/Value/RewardPool/ItemsPool">
+    <Item>
+        <ItemLink>10000000000157</ItemLink> <!-- Mr Goldinger -->
+    </Item>
+</ModOp>
+
+<ModOp Type="addnextSibling" GUID="130248">
+    <Asset>
+        <Template>Trigger</Template>
+        <Values>
+            <Standard>
+                <GUID>1742008802</GUID>
+                <Name>Specialist Trigger</Name>
+            </Standard>
+            <Trigger>
+                <TriggerCondition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                        <Condition />
+                        <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000006</Context>
+                            <CounterAmount>500</CounterAmount>
+                        </ConditionPlayerCounter>
+                    </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                    <Item>
+                        <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                                <Action />
+                                <ActionUnlockAsset>
+                                    <UnhideAssets>
+                                        <Item>
+                                            <Asset>10000000000157</Asset> <!-- Mr Goldinger -->
+                                        </Item>
+                                    </UnhideAssets>
+                                    <UnlockAssets>
+                                        <Item>
+                                            <Asset>10000000000157</Asset> <!-- Mr Goldinger -->
+                                        </Item>
+                                    </UnlockAssets>
+                                </ActionUnlockAsset>
+                            </Values>
+                        </TriggerAction>
+                    </Item>
+                </TriggerActions>
+            </Trigger>
+            <TriggerSetup />
+        </Values>
+    </Asset>
+</ModOp>
+
+   <!-- END SPECIALIST - Mr. Goldinger -->
+</ModOps>

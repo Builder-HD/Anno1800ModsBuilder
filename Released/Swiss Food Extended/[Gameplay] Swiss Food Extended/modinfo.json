@@ -1,0 +1,55 @@
+{
+	"Version": "1.00",
+	"ModID": "swiss_food",
+	"IncompatibleIds": [],
+	"ModDependencies": [],
+	"ModioID": 3227009,
+	"Category": {
+		"Chinese": "Gameplay",
+		"English": "Gameplay",
+		"French": "Gameplay",
+		"German": "Gameplay",
+		"Italian": "Gameplay",
+		"Korean": "Gameplay",
+		"Polish": "Gameplay",
+		"Russian": "Gameplay",
+		"Spanish": "Gameplay",
+		"Taiwanese": "Gameplay"
+	},
+	"ModName": {
+		"Chinese": "瑞士食品扩展",
+		"English": "Swiss Food Extended",
+		"French": "Swiss Food Extended",
+		"German": "Swiss Food Extended",
+		"Italian": "Swiss Food Extended",
+		"Korean": "스위스 푸드 익스텐디드",
+		"Polish": "Szwajcarskie jedzenie rozszerzone",
+		"Russian": "Швейцарская еда расширена",
+		"Spanish": "Comida suiza extendida",
+		"Taiwanese": "瑞士食品擴展"
+	},
+	"Description": {
+		"Chinese": "为餐厅、咖啡馆和酒吧、栗子摊和苗圃各增加了一种食谱，并为工程师和投资者增加了一种新的豪华要求。",
+		"English": "Adds one recipe each for the restaurant, cafe and bar, a chestnut stand and tree nursery and a new luxury requirement for engineers and investors.",
+		"French": "Ajoute une recette pour le restaurant, un café et un bar, un stand de marrons et une pépinière, ainsi qu'un nouveau besoin de luxe pour les ingénieurs et les investisseurs.",
+		"German": "Fügt je ein Rezept für das Restaurant, Cafe und Bar hinzu, einen Maronen Stand und Baumschule und ein neues Luxus Bedürfniss für Ingenieure und Investoren.",
+		"Italian": "Aggiunge una ricetta per il ristorante, la caffetteria e il bar, una bancarella di castagne e un vivaio e un nuovo requisito di lusso per ingegneri e investitori.",
+		"Korean": "레스토랑, 카페, 바, 밤나무 스탠드, 나무 묘목장에 각각 하나의 레시피를 추가하고 엔지니어와 투자자를 위한 새로운 고급 요구 사항을 추가합니다.",
+		"Polish": "Dodano po jednym przepisie na restaurację, kawiarnię i bar, stoisko z kasztanami i szkółkę drzew oraz nowe luksusowe wymagania dla inżynierów i inwestorów.",
+		"Russian": "Добавляет по одному рецепту для ресторана, кафе и бара, каштанового киоска и древесного питомника, а также новое требование роскоши для инженеров и инвесторов.",
+		"Spanish": "Añade una receta cada uno para el restaurante, la cafetería y el bar, un puesto de castañas y un vivero de árboles y un nuevo requisito de lujo para ingenieros e inversores.",
+		"Taiwanese": "N/A"
+	},
+	"KnownIssues": null,
+	"DLCDependencies": [
+		{
+			"DLC": "Tourism",
+			"Dependant": "required"
+		},
+		{
+			"DLC": "LandOfLions",
+			"Dependant": "required"
+		}
+	],
+	"CreatorName": "Builder_HD"
+}

@@ -1,0 +1,13 @@
+<!--Every Mod starts with <ModOps> You can have more than one ModOps-->
+<ModOps>
+    <!-- To make a change or add an Item you make a <ModOp> -->
+    <!-- Then you make say what you want to do with that for our example we want to replace the item we could also hide, remove or add a new item -->
+    <!-- Then the GUID is what gives your item a ID. If you created a new Item you would need to make a new GUID but as we want to replace the Image we just give the GUID for the Item we want to change this would be Feras alsami-->
+    <!-- With the Path we change what Part we want to change. We want to change the IconFilename. If you look in the Asset.xml of the Original Anno 1800 you can see that IconFilename is under Standard wich is located under Values.-->
+    <ModOp Type="replace" GUID='192450' Path="/Values/Standard/IconFilename">
+      <IconFilename>data/graphics/icons/icon_feras_sun_burned.png</IconFilename>
+      <!-- IconFilename changes the Image. When you look at the Mod Strucutre you can see that in the "data" Folder there is a "graphics" folder and in there is the "icons" Folder and in there is the "icon_feras_sun_burned.dds".-->
+    </ModOp>
+    <!-- END CHANGE  Feras Alsarami, the better Persuader -->
+  
+</ModOps>

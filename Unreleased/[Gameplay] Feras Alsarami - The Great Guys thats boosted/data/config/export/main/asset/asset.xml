@@ -1,0 +1,5 @@
+<ModOps>
+  <ModOp Type="replace" GUID='192450' Path="/Values/FactoryUpgrade/ProductivityUpgrade/Value">
+    <Value>420<Value>
+  </ModOp>
+</ModOps>

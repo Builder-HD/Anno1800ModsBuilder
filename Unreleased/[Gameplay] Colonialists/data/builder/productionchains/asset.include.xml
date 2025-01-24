@@ -1,0 +1,57 @@
+<ModOps>
+  <!-- Sulfuric Acid -->
+  <ModOp Type="addnextSibling" GUID="137607">
+    <Asset>
+      <Template>ProductionChain</Template>
+      <Values>
+        <Standard>
+          <GUID>1507000078</GUID>
+          <Name>Sulfuric Acid chain</Name>
+          <IconFilename>data/graphics/icons/icon_sulfuric_acid.dds</IconFilename>
+        </Standard>
+        <ProductionChain>
+          <Building>1507000075</Building>
+          <Tier1>
+            <Item>
+              <Building>1010304</Building>
+            </Item>
+            <Item>
+              <Building>1742100240</Building>
+            </Item>
+            <Item>
+              <Building>2100115090</Building>
+            </Item>
+          </Tier1>
+        </ProductionChain>
+        <Locked />
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Sulfuric Acid</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>51951</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Sulfuric Acid Chemical Plant-->
+  <ModOp Type="addNextSibling" GUID='25000192'
+    Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010365']">
+    <Item>
+      <Building>1507000078</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='500945'
+    Path="/Values/ConstructionCategory/BuildingList/Item[Building='500902']">
+    <Item>
+      <Building>1507000078</Building>
+    </Item>
+  </ModOp>
+
+  
+  <!-- Chandeliers-->
+</ModOps>

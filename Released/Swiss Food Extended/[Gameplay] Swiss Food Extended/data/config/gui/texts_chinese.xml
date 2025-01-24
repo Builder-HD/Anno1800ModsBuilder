@@ -1,0 +1,306 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- START SPECIALIST - Richi der Erfinder des Fondues -->
+    <Text>
+      <GUID>1507000001</GUID>
+      <Text>“芝士火锅发明者”，里奇</Text>
+    </Text>
+    <Text>
+      <GUID>1507000002</GUID>
+      <Text>里奇一生都在山上的一个小牧场中工作生活。他每天的晚餐都只有面包和奶酪。有一天，里奇突发奇想，把奶酪放在桶里加热，然后把面包泡在里面。于是，奶酪火锅就诞生了。</Text>
+    </Text>
+    <!-- END SPECIALIST - Richi der Erfinder des Fondues -->
+
+    <!-- START GOOD - Cheese Fondue -->
+    <Text>
+      <GUID>1507000003</GUID>
+      <Text>芝士厨房</Text>
+    </Text>
+    <Text>
+      <GUID>1507000004</GUID>
+      <Text>将奶酪融化并制成芝士火锅的工厂。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000005</GUID>
+      <Text>芝士火锅</Text>
+    </Text>
+    <Text>
+      <GUID>1507000006</GUID>
+      <Text>发明于瑞士</Text>
+    </Text>
+    <!-- END GOOD - Cheese Fondue -->
+
+    <!-- START GOOD - Fondue Equipment -->
+    <Text>
+      <GUID>1507000007</GUID>
+      <Text>芝士火锅餐具</Text>
+    </Text>
+    <Text>
+      <GUID>1507000008</GUID>
+      <Text>吃芝士火锅需要的长叉、长勺、锅和配套的火炉。</Text>
+    </Text>
+    <!-- END GOOD - Fondue Equiment -->
+
+    <!-- END FACTORY - Cheese Melter -->
+
+    <!-- START CHAIN - Cheese Fondue -->
+    <Text>
+      <GUID>1507000009</GUID>
+      <Text>芝士火锅</Text>
+    </Text>
+    <Text>
+      <GUID>1507000010</GUID>
+      <Text>芝士火锅生产链</Text>
+    </Text>
+    <!-- END CHAIN - Cheese Fondue -->
+
+    <!-- START CHAIN - Fondue Equipment Factory -->
+    <Text>
+      <GUID>1507000011</GUID>
+      <Text>芝士火锅餐具厂</Text>
+    </Text>
+    <Text>
+      <GUID>1507000012</GUID>
+      <Text>生产长叉和桶的工厂</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000017</GUID>
+      <Text>阿尔卑斯芝士锅</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000018</GUID>
+      <Text>阿尔卑斯芝士锅</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000019</GUID>
+      <Text>阿尔卑斯芝士锅</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000020</GUID>
+      <Text>餐厅：阿尔卑斯芝士锅</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000021</GUID>
+      <Text>阿尔卑斯芝士锅</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000022</GUID>
+      <Text>芝士火锅堪称瑞士国菜。它由融化的奶酪、辣椒粉和香料组成，并通常以土豆作为配菜。</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000024</GUID>
+      <Text>如果吸引来足够多的游客，也许有人会带来传统的瑞士食谱。</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000026</GUID>
+      <Text>阿尔卑斯芝士锅</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000027</GUID>
+      <Text>“新派芝士锅”，杰克</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000028</GUID>
+      <Text>杰克，也被称为黄杰克，从不喜欢奶酪。在朋友的怂恿下，就尝了尝芝士火锅，但他不太喜欢。所以他决定改变食谱，用巧克力代替奶酪，用香蕉代替面包。</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000029</GUID>
+      <Text>奶油栗子糕</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000030</GUID>
+      <Text>奶油栗子糕</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000031</GUID>
+      <Text>奶油栗子糕</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000032</GUID>
+      <Text>栗子</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000033</GUID>
+      <Text>咖啡厅：奶油栗子糕</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000034</GUID>
+      <Text>奶油栗子糕</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000035</GUID>
+      <Text>如果你在旧世界储存10吨栗子，也许你的游客会想办法用它们来做一道新菜。</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000036</GUID>
+      <Text>建造一个栗子种植园，也许你的某个游客会想到如何用栗子做糕点。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000037</GUID>
+      <Text>果园：栗子</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000038</GUID>
+      <Text>栗子-触发器</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000039</GUID>
+      <Text>栗子</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000040</GUID>
+      <Text>栗子有惊人的用途，可以被烤制成完美的街头小吃。</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000041</GUID>
+      <Text>栗子树</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000042</GUID>
+      <Text>在寒冷的天气里，烤栗子是绝佳的小吃。</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000043</GUID>
+      <Text>吸引200名工程师，其中肯定有人能给你提供新的树种。</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000045</GUID>
+      <Text>雪顶咖啡鸡尾酒</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000046</GUID>
+      <Text>这是一种传统的瑞士食谱，混合了咖啡、奶油、烈酒和巧克力。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000047</GUID>
+      <Text>酒吧：雪顶咖啡鸡尾酒</Text>
+    </Text>
+    <Text>
+      <GUID>1507000048</GUID>
+      <Text>酒吧：雪顶咖啡鸡尾酒</Text>
+    </Text>
+    <Text>
+      <GUID>1507000050</GUID>
+      <Text>雪顶咖啡鸡尾酒</Text>
+    </Text>
+    <Text>
+      <GUID>1507000051</GUID>
+      <Text>雪顶咖啡鸡尾酒</Text>
+    </Text>
+    <Text>
+      <GUID>1507000052</GUID>
+      <Text>雪顶咖啡鸡尾酒</Text>
+    </Text>
+    <Text>
+      <GUID>1507000053</GUID>
+      <Text>如果你为北极的居民提供更多的烈酒，也许他们会想出一个新配方？</Text>
+    </Text>
+    <Text>
+      <GUID>1507000055</GUID>
+      <Text>栗子 Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1507000056</GUID>
+      <Text>烤板栗摊</Text>
+    </Text>
+    <Text>
+      <GUID>1507000057</GUID>
+      <Text>在冬季的小集市上，见到一个栗子摊真是令人开心的事。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000058</GUID>
+      <Text>烤板栗摊</Text>
+    </Text>
+    <Text>
+      <GUID>1507000059</GUID>
+      <Text>无论是在逛完市场之后填肚子，还是在寒冷的冬天回家的路上作为零嘴，甜美的烤栗子都能让你感到舒适和温暖，很受当地人的欢迎。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000060</GUID>
+      <Text>煤烤栗子</Text>
+    </Text>
+    <Text>
+      <GUID>1507000061</GUID>
+      <Text>炭烤栗子</Text>
+    </Text>
+    <Text>
+      <GUID>1507000062</GUID>
+      <Text>炭烤栗子</Text>
+    </Text>
+    <Text>
+      <GUID>1507000063</GUID>
+      <Text>炭烤栗子</Text>
+    </Text>
+    <Text>
+      <GUID>1507000064</GUID>
+      <Text>煤烤的栗子，在冰天雪地里待了一天，这是天然的暖手宝。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000065</GUID>
+      <Text>炭烤的栗子，可以在寒冷的一天里温暖双手。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000066</GUID>
+      <Text>烤板栗摊</Text>
+    </Text>
+    <Text>
+      <GUID>1507000067</GUID>
+      <Text>这里出售瑞士传统方式制作的烤栗子，以温暖寒冷的农民和工人的手。</Text>
+    </Text>
+    <Text>
+      <GUID>1507000068</GUID>
+      <Text>栗子 Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1507000069</GUID>
+      <Text>栗子 Buff</Text>
+    </Text>
+    
+<!-- GUID: Vermicelles Recipe: 1507000034 -->
+
+
+<!-- GUID: Chestnuts: 1507000032 -->
+<!-- GUID: Chestnut Treeplanter: 1507000037-->
+<!-- GUID: ChestnutStall Buff 30: 150700055-->
+<!-- GUID: ChestnutStallCoal: 150700056-->
+<!-- GUID: ChestnutStall Description: 150700057-->
+<!-- GUID: Stall Blank: 150700058-->
+<!-- GUID: Coal Stall Recipe: 150700060-->
+<!-- GUID: Wood Stall Recipe: 150700061-->
+<!-- GUID: ChestnutStallWood: 150700062-->
+<!-- GUID: RecipeList Description: 150700063-->
+<!-- GUID: Coal Stall Recipe Description: 150700064-->
+<!-- GUID: Wood Stall Recipe Description: 150700065-->
+<!-- GUID: Recipe List: 150700066-->
+<!-- GUID: Recipe List Description: 150700067-->
+<!-- GUID: ChestnutStall Buff 70: 150700068-->
+<!-- GUID: ChestnutStall Buff 100: 150700069-->
+
+  </ModOp>
+</ModOps>

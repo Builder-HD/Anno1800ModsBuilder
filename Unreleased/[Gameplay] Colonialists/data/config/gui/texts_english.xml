@@ -1,0 +1,205 @@
+<!-- GUID: Sulfuric Acid: 1507000071-->
+<!-- GUID: Sulfuric Acid description: 1507000072-->
+<!-- GUID: Sulfuric Acid Recipe: 1507000073-->
+<!-- GUID: Sulfuric Acid Recipe Description: 1507000074-->
+<!-- GUID: Sulfuric Acid Factory: 1507000075-->
+<!-- GUID: Sulfuric Acid Factory Description: 1507000076-->
+<!-- GUID: Sulfuric Acid Unlock: 1507000077-->
+<!-- GUID: Sulfuric Acid Chain: 1507000078-->
+<!-- GUID: Sulfuric Acid Chain Description: 1507000079-->
+
+<!-- GUID: Sawdust: 1507000082-->
+<!-- GUID: Sawdust Description: 1507000083-->
+<!-- GUID: Sawdust Buff: 1507000084-->
+<!-- GUID: Sawdust Buff Description: 1507000085-->
+
+<!-- Colonialists -->
+<!-- GUID: Colonialist: 1507000086-->
+<!-- GUID: Colonialist Description: 1507000087-->
+<!-- GUID: Colonialist Workforce: 1507000088-->
+<!-- GUID: Colonialist Workforce Description: 1507000089-->
+<!-- GUID: Colonialist Satisfaction None: 1507000090-->
+<!-- GUID: Colonialist Satisfaction Unhappy: 1507000091-->
+<!-- GUID: Colonialist Satisfaction Content: 1507000092-->
+<!-- GUID: Colonialist Satisfaction Happy: 1507000093-->
+<!-- GUID: Colonialist Satisfaction Perfect: 1507000094-->
+<!-- GUID: Colonialist House: 1507000095-->
+<!-- GUID: Colonialist House Description: 1507000096-->
+<!-- GUID: Colonialist Construction Menu: 1507000097-->
+
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1507000071</GUID>
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>1507000072</GUID>
+      <Text>Its very corosive so dont touch it</Text>
+    </Text>
+    <Text>
+      <GUID>1507000073</GUID>
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>1507000074</GUID>
+      <Text>Sulfuric Acid is made by burning sulfur and mixing the created sulfuric oxide with water.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000075</GUID>
+      <Text>Advanced Chemical Plant: Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>1507000076</GUID>
+      <Text>Dont touch the fluid inside the vats.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000077</GUID>
+      <Text>Maybe some more Engineers could help you discover how to make new Chemicals.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000078</GUID>
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>1507000079</GUID>
+      <Text>The chain to produce sulfuric acid</Text>
+    </Text>
+    <Text>
+      <GUID>1507000082</GUID>
+      <Text>Sawdust</Text>
+    </Text>
+    <Text>
+      <GUID>1507000083</GUID>
+      <Text>The leftover that you get when your cutting wood</Text>
+    </Text>
+    <Text>
+      <GUID>1507000084</GUID>
+      <Text>Collecting Sawdust</Text>
+    </Text>
+    <Text>
+      <GUID>1507000085</GUID>
+      <Text>Collecting Sawdust for further production</Text>
+    </Text>
+    <Text>
+      <GUID>1507000086</GUID>
+      <Text>Colonialists</Text>
+    </Text>
+    <Text>
+      <GUID>1507000087</GUID>
+      <Text>The Elite of the new world</Text>
+    </Text>
+    <Text>
+      <GUID>1507000088</GUID>
+      <Text>Colonialists</Text>
+    </Text>
+    <Text>
+      <GUID>1507000089</GUID>
+      <Text>The elite that controlls the new world</Text>
+    </Text>
+    <Text>
+      <GUID>1507000090</GUID>
+      <Text>Angry Colonialist</Text>
+    </Text>
+    <Text>
+      <GUID>1507000091</GUID>
+      <Text>Unhappy Colonialist</Text>
+    </Text>
+    <Text>
+      <GUID>1507000092</GUID>
+      <Text>Content Colonialist</Text>
+    </Text>
+    <Text>
+      <GUID>1507000093</GUID>
+      <Text>Happy Colonialist</Text>
+    </Text>
+    <Text>
+      <GUID>1507000094</GUID>
+      <Text>Euphoric Colonialist</Text>
+    </Text>
+    <Text>
+      <GUID>1507000095</GUID>
+      <Text>Colonialist Villa</Text>
+    </Text>
+    <Text>
+      <GUID>1507000096</GUID>
+      <Text>A villa where your elite of the colonies can comfortably live</Text>
+    </Text>
+    <Text>
+      <GUID>1507000097</GUID>
+      <Text>Colonialists</Text>
+    </Text>
+    <!-- GUID: Newspaper: 1507000100-->
+    <!-- GUID: Newspaper Description: 1507000101-->
+    <!-- GUID: Fancy Dinners: 1507000102-->
+    <!-- GUID: Fancy Dinners Description: 1507000103-->
+    <!-- GUID: Ball Gowns: 1507000104-->
+    <!-- GUID: Ball Gowns Description: 1507000105-->
+    <!-- GUID: Pineapples: 1507000106-->
+    <!-- GUID: Pineapples Description: 1507000107-->
+    <!-- GUID: Chandelier: 1507000108-->
+    <!-- GUID: Chandelier Description: 1507000109-->
+    <!-- GUID: Marble Statues: 1507000110-->
+    <!-- GUID: Marble Statues Description: 1507000111-->
+    <!-- GUID: Exotic Pets: 1507000112-->
+    <!-- GUID: Exotic Pets Description: 1507000113-->
+    <!-- GUID: Diamonds: 1507000114-->
+    <!-- GUID: Diamonds Description: 1507000115-->
+    <Text>
+      <GUID>1507000100</GUID>
+      <Text>Newspapers</Text>
+    </Text>
+    <Text>
+      <GUID>1507000101</GUID>
+      <Text>Newspaper to keep your population updated on what happens around the world, and with that we mean the Old World</Text>
+    </Text>
+    <Text>
+      <GUID>1507000102</GUID>
+      <Text>Fancy Dinners</Text>
+    </Text>
+    <Text>
+      <GUID>1507000103</GUID>
+      <Text>Food thats prepared in a really fancy way</Text>
+    </Text>
+    <Text>
+      <GUID>1507000104</GUID>
+      <Text>Ball Gowns</Text>
+    </Text>
+    <Text>
+      <GUID>1507000105</GUID>
+      <Text>Suits for special ocasions</Text>
+    </Text>
+        <Text>
+      <GUID>1507000106</GUID>
+      <Text>Pineapples</Text>
+    </Text>
+    <Text>
+      <GUID>1507000107</GUID>
+      <Text>A yellow and pricky Fruit, Not to be eaten but just to be displayed as a sign of power and wealth</Text>
+    </Text>
+    <Text>
+      <GUID>1507000108</GUID>
+      <Text>Chandeliers</Text>
+    </Text>
+    <Text>
+      <GUID>1507000109</GUID>
+      <Text>Hanging Decorations that give of a beautiful light</Text>
+    </Text>
+    <Text>
+      <GUID>1507000110</GUID>
+      <Text>Marble Statues</Text>
+    </Text>
+    <Text>
+      <GUID>1507000111</GUID>
+      <Text>Rich people like to brag about how rich they are, how to do that better than having a statue of themselves</Text>
+    </Text>
+    <Text>
+      <GUID>1507000112</GUID>
+      <Text>Exotic Pets</Text>
+    </Text>
+    <Text>
+      <GUID>1507000113</GUID>
+      <Text>Sadly more and more wild and exotic animals get turned into pets</Text>
+    </Text>
+  </ModOp>
+</ModOps>

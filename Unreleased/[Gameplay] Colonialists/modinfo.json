@@ -1,0 +1,61 @@
+{
+	"Version": "1.00",
+	"ModID": "time_of_colonization",
+	"IncompatibleIds": [],
+	"ModDependencies": [
+
+	],
+	"ModioID": 999999,
+	"Category": {
+		"Chinese": "Gameplay",
+		"English": "Gameplay",
+		"French": "Gameplay",
+		"German": "Gameplay",
+		"Italian": "Gameplay",
+		"Korean": "Gameplay",
+		"Polish": "Gameplay",
+		"Russian": "Gameplay",
+		"Spanish": "Gameplay",
+		"Taiwanese": "Gameplay"
+	},
+	"ModName": {
+		"Chinese": "Time of colonization",
+		"English": "Time of colonization",
+		"French": "Time of colonization",
+		"German": "Time of colonization",
+		"Italian": "Time of colonization",
+		"Korean": "Time of colonization",
+		"Polish": "Time of colonization",
+		"Russian": "Time of colonization",
+		"Spanish": "Time of colonization",
+		"Taiwanese": "Time of colonization"
+	},
+	"Description": {
+		"Chinese": "Adds new Goods to expand on the chemical production of the base game.",
+		"English": "Adds new Goods to expand on the chemical production of the base game.",
+		"French": "Adds new Goods to expand on the chemical production of the base game.",
+		"German": "Adds new Goods to expand on the chemical production of the base game.",
+		"Italian": "Adds new Goods to expand on the chemical production of the base game.",
+		"Korean": "Adds new Goods to expand on the chemical production of the base game.",
+		"Polish": "Adds new Goods to expand on the chemical production of the base game.",
+		"Russian": "Adds new Goods to expand on the chemical production of the base game.",
+		"Spanish": "Adds new Goods to expand on the chemical production of the base game.",
+		"Taiwanese": "Adds new Goods to expand on the chemical production of the base game."
+	},
+	"KnownIssues": null,
+	"DLCDependencies": [
+		{
+			"DLC": "EmpireOfTheSkies",
+			"Dependant": "required"
+		},
+		{
+			"DLC": "Highlife",
+			"Dependant": "required"
+		},
+		{
+			"DLC": "NewWorldRising",
+			"Dependant": "required"
+		}
+	],
+	"CreatorName": "Builder_HD"
+}

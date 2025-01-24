@@ -1,0 +1,58 @@
+<!-- Sulfuric Acid-->
+  <!-- GUID: Sulfuric Acid: 1507000071-->
+  <!-- GUID: Sulfuric Acid description: 1507000072-->
+  <!-- GUID: Sulfuric Acid Recipe: 1507000073-->
+  <!-- GUID: Sulfuric Acid Recipe Description: 1507000074-->
+  <!-- GUID: Sulfuric Acid Factory: 1507000075-->
+  <!-- GUID: Sulfuric Acid Factory Description: 1507000076-->
+  <!-- GUID: Sulfuric Acid Unlock: 1507000077-->
+  <!-- GUID: Sulfuric Acid Chain: 1507000078-->
+  <!-- GUID: Sulfuric Acid Chain Description: 1507000079-->
+
+<!-- Newspapers-->
+
+
+<!-- ALL SAWDUST RELATED THINGS ARE UNUSED AND REPLACED BY THE SHARED MOD-->
+  <!-- GUID: Sawdust: 1507000082-->
+  <!-- GUID: Sawdust Description: 1507000083-->
+  <!-- GUID: Sawdust Buff: 1507000084-->
+  <!-- GUID: Sawdust Buff Description: 1507000085-->
+
+<!-- Colonialists -->
+  <!-- GUID: Colonialist: 1507000086-->
+  <!-- GUID: Colonialist Description: 1507000087-->
+  <!-- GUID: Colonialist Workforce: 1507000088-->
+  <!-- GUID: Colonialist Workforce Description: 1507000089-->
+  <!-- GUID: Colonialist Satisfaction None: 1507000090-->
+  <!-- GUID: Colonialist Satisfaction Unhappy: 1507000091-->
+  <!-- GUID: Colonialist Satisfaction Content: 1507000092-->
+  <!-- GUID: Colonialist Satisfaction Happy: 1507000093-->
+  <!-- GUID: Colonialist Satisfaction Perfect: 1507000094-->
+  <!-- GUID: Colonialist House: 1507000095-->
+  <!-- GUID: Colonialist House Description: 1507000096-->
+  <!-- GUID: Colonialist Construction Menu: 1507000097-->
+  <!-- GUID: Colonialist Product List: 1507000099-->
+
+<!-- Triggers -->
+  <!-- GUID: Trigger Creative: 1507000080-->
+
+
+<!-- Dependencies -->
+  <!-- Sulfur -->
+    <!-- GUID: Sulfur: 2100115089-->
+    <!-- GUID: Sulfur Module: 2100115090-->
+  
+  <!-- Water -->
+    <!-- GUID: Water: 1742100242 -->
+    <!-- GUID: Water Pump: 1742100240-->
+
+<ModOps>
+  <!-- Include Files -->
+  <Include File="../../../../builder/products/asset.include.xml" />
+  <Include File="../../../../builder/triggers/asset.include.xml" />
+  <Include File="../../../../builder/buffs/asset.include.xml" />
+  <Include File="../../../../builder/buildings/asset.include.xml" />
+  <Include File="../../../../builder/recipes/asset.include.xml" />
+  <Include File="../../../../builder/productionchains/asset.include.xml" />
+  <Include File="../../../../builder/tiers/asset.include.xml" />
+</ModOps>

@@ -1,0 +1,337 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <!-- START SPECIALIST - Richi der Erfinder des Fondues -->
+    <Text>
+      <GUID>1507000001</GUID>
+      <Text>Richi der Erfinder des Fondues</Text>
+    </Text>
+    <Text>
+      <GUID>1507000002</GUID>
+      <Text>Richi hatte sein ganzes Leben auf einer kleinen Alp in den Bergen gelebt. Dort gab es meist nur Brot und ein bisschen Käse zum Abendessen. Doch Richi wollte Abwechslung, also erhitzte er den Käse in einem Eimer und tauchte das Brot darin ein. Das Käsefondue war geboren.</Text>
+    </Text>
+    <!-- END SPECIALIST - Richi der Erfinder des Fondues -->
+
+    <!-- START GOOD - Cheese Fondue -->
+    <Text>
+      <GUID>1507000003</GUID>
+      <Text>Käse Schmelzerei</Text>
+    </Text>
+    <Text>
+      <GUID>1507000004</GUID>
+      <Text>Eine Fabrik, in der Käse geschmolzen und zu Fondue verarbeitet wird</Text>
+    </Text>
+    <Text>
+      <GUID>1507000005</GUID>
+      <Text>Käse Fondue</Text>
+    </Text>
+    <Text>
+      <GUID>1507000006</GUID>
+      <Text>Erfunden in der Schweiz</Text>
+    </Text>
+    <!-- END GOOD - Cheese Fondue -->
+  
+    <!-- START GOOD - Fondue Equipment -->
+    <Text>
+      <GUID>1507000007</GUID>
+      <Text>Fondue Ausrüstung</Text>
+    </Text>
+    <Text>
+      <GUID>1507000008</GUID>
+      <Text>Equipment welches die Herstellung von Fondue erleichtert.</Text>
+    </Text>
+    <!-- END GOOD - Fondue Equiment -->
+
+    <!-- END FACTORY - Cheese Melter -->
+
+    <!-- START CHAIN - Cheese Fondue -->
+    <Text>
+      <GUID>1507000009</GUID>
+      <Text>Käse Fondue</Text>
+    </Text>
+    <Text>
+      <GUID>1507000010</GUID>
+      <Text>Produktionskette von Käsefondue</Text>
+    </Text>
+    <!-- END CHAIN - Cheese Fondue -->
+
+    <!-- START CHAIN - Fondue Equipment Factory -->
+    <Text>
+      <GUID>1507000011</GUID>
+      <Text>Fondue-Ausrüstung Fabrik</Text>
+    </Text>
+    <Text>
+      <GUID>1507000012</GUID>
+      <Text>Eine Fabrik, in der lange Gabeln und Kübel hergestellt werden</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000017</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000018</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000019</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000020</GUID>
+      <Text>Restaurant: Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000021</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000022</GUID>
+      <Text>Raclette ist ein typisch Schweizerisches Gericht das aus geschmolzenem Käse, Paprika und Gewürzen besteht. Oft gibt es dazu auch Kartoffeln als beilage.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000024</GUID>
+      <Text>Wenn sie genug Touristen anlocken bringt ihnen vieleicht einer davon ein traditionelles Schweizerisches Rezept mit.</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000026</GUID>
+      <Text>Raclette</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000027</GUID>
+      <Text>Yellow Jack</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000028</GUID>
+      <Text>Jack, auch bekannt als Yellow Jack, mochte nie Käse. Nachdem er von seinen Freunden gehört hat, wie gut Fondue ist, hat er es ausprobiert, aber es hat ihm nicht geschmeckt. Deshalb beschloss er, das Rezept zu ändern und statt Käse Schokolade und statt Brot Bannans zu verwenden.</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000029</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000030</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000031</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000032</GUID>
+      <Text>Maronen</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000033</GUID>
+      <Text>Cafe: Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000034</GUID>
+      <Text>Vermicelles</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000035</GUID>
+      <Text>Wenn sie 10 Maronen in der Alten Welt lagern fällt ihren Touristen vieleicht ein Weg ein mit denen ein Neues Gericht zu Kreieren</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000036</GUID>
+      <Text>Bauen sie eine Maronen Baumschule vieleicht fällt einer ihrer Touristen dann ein wie man ein Gebäck aus ihnen herstellt.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000037</GUID>
+      <Text>Baumschule: Maronen</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000038</GUID>
+      <Text>Maronen Trigger</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000039</GUID>
+      <Text>Maronen</Text>
+    </Text>
+    
+    <Text>
+      <GUID>1507000040</GUID>
+      <Text>Maronen haben erstaunliche Heilende Fähigkeiten und können geröstet werden für den Perfekten Jahrmarkts Snack. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000041</GUID>
+      <Text>Baumschule für Maronen </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000042</GUID>
+      <Text>Maronen machen geröstet für einen perfekten Snack in kalten Zeiten. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000043</GUID>
+      <Text>Locken sie insgesamt 200 Ingenieure an einer von ihnen hat sicherlich eine neue Baumart für Sie. </Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000045</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+
+    <Text>
+      <GUID>1507000046</GUID>
+      <Text>Ein Traditonelles Schweizer Rezept welches Kaffe, Rahm, Schnapps und manchmal auch Schokoladen miteinander Verbindet.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000047</GUID>
+      <Text>Bar: Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000048</GUID>
+      <Text>Bar: Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000050</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000051</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000052</GUID>
+      <Text>Schümli Pflümli</Text>
+    </Text>
+    <Text>
+      <GUID>1507000053</GUID>
+      <Text>Wenn sie in der Arktis denn Bewohneren mehr Schnaps zur Verfügung stellen werden sie sich vieleicht ein neues Rezept ausdenken?</Text>
+    </Text>
+    <Text>
+      <GUID>1507000055</GUID>
+      <Text>Maronen Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1507000056</GUID>
+      <Text>Maronen Stand</Text>
+    </Text>
+    <Text>
+      <GUID>1507000057</GUID>
+      <Text>Ein Maronen Stand, macht sich sicherlich gut in einem kleinen Winterlichen Markt</Text>
+    </Text>
+    <Text>
+      <GUID>1507000058</GUID>
+      <Text>Maronen Stand</Text>
+    </Text>
+    <Text>
+      <GUID>1507000059</GUID>
+      <Text>Ob nach einem Besuch auf dem Weihnachtsmarkt oder als kleiner snack auf dem Heiweg während eines Kalten Wintertages, Maronen geben schön Warm und gefallen ihren Einwohnern sehr.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000060</GUID>
+      <Text>Maronen Kohle</Text>
+    </Text>
+    <Text>
+      <GUID>1507000061</GUID>
+      <Text>Maronen, Holz</Text>
+    </Text>
+    <Text>
+      <GUID>1507000062</GUID>
+      <Text>Maronen, Holz</Text>
+    </Text>
+    <Text>
+      <GUID>1507000063</GUID>
+      <Text>Maronen, Holz</Text>
+    </Text>
+    <Text>
+      <GUID>1507000064</GUID>
+      <Text>Maronen, die mit Kohle geröstet wurden. Wärmt die Hände nach einem Kalten Tag auf den Feldern oder Farbik.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000065</GUID>
+      <Text>Maronen, die mit Holz geröstet wurden. Wärmt die Hände nach einem Kalten Tag auf den Feldern oder Farbik.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000066</GUID>
+      <Text>Maronen Stand</Text>
+    </Text>
+    <Text>
+      <GUID>1507000067</GUID>
+      <Text>Hier werden Maronen traditionell schweizerisch geröstet und verkauft um die Hände der frierenden Bauern und Arbeiter zu wärmen.</Text>
+    </Text>
+    <Text>
+      <GUID>1507000068</GUID>
+      <Text>Maronen Buff</Text>
+    </Text>
+    <Text>
+      <GUID>1507000069</GUID>
+      <Text>Maronen Buff</Text>
+    </Text>
+
+
+<!-- ChestnutStall-->
+<!-- GUID: Chestnuts: 1507000032 -->
+<!-- GUID: Chestnut Treeplanter: 1507000037-->
+<!-- GUID: ChestnutStall Buff 30: 1507000055-->
+<!-- GUID: ChestnutStallCoal: 1507000056-->
+<!-- GUID: ChestnutStall Description: 1507000057-->
+<!-- GUID: Stall Blank: 1507000058-->
+<!-- GUID: Coal Stall Recipe: 1507000060-->
+<!-- GUID: Wood Stall Recipe: 1507000061-->
+<!-- GUID: ChestnutStallWood: 1507000062-->
+<!-- GUID: RecipeList Description: 1507000063-->
+<!-- GUID: Coal Stall Recipe Description: 1507000064-->
+<!-- GUID: Wood Stall Recipe Description: 1507000065-->
+<!-- GUID: Recipe List: 1507000066-->
+<!-- GUID: Recipe List Description: 1507000067-->
+<!-- GUID: ChestnutStall Buff 70: 1507000068-->
+<!-- GUID: ChestnutStall Buff 100: 1507000069-->
+
+
+<!-- Schümli Pflümli -->
+<!-- GUID: Schümli Pflümli Recipe: 1507000045-->
+<!-- GUID: Schümli Pflümli Recipe Beschreibung: 1507000046-->
+<!-- GUID: Schümli Pflümli Bar: 1507000047-->
+<!-- GUID: Schümli Pflümli Bar Beschreibung: 1507000048-->
+<!-- GUID: Schümli Pflümli Trigger: 1507000049-->
+<!-- GUID: Schümli Pflümli Buff_30: 1507000050-->
+<!-- GUID: Schümli Pflümli Buff_70: 150700051-->
+<!-- GUID: Schümli Pflümli Buff_100: 1507000052-->
+<!-- GUID: Schümli Pflümli Unlock Beschreibung: 1507000053-->
+<!-- GUID: Schümli Pflümli Trigger: 1507000054-->
+
+<!-- GUID: Maronen Treeplanter: 1507000037 -->
+<!-- GUID: Maronen Trigger: 1507000038 -->
+<!-- GUID: Maronen Recipe: 1507000039 -->
+<!-- GUID: Milk: 1440005 -->
+    <!-- GUID: Vermicelles Buff_30: 1507000029 -->
+<!-- GUID: Vermicelles Buff_70: 1507000030 -->
+<!-- GUID: Vermicelles Buff_100: 1507000031 -->
+<!-- GUID: Maronen: 1507000032 -->
+<!-- GUID: Cafe Vermicelles: 1507000033 -->
+<!-- GUID: Vermicelles Recipe: 1507000034 -->
+<!-- GUID: Vermicelles Buff_30: 1507000029 -->
+<!-- GUID: Vermicelles Buff_70: 1507000030 -->
+<!-- GUID: Vermicelles Buff_100: 1507000031 -->
+<!-- GUID: Chestnuts: 1507000032 -->
+<!-- GUID: Cafe Vermicelles: 1507000033 -->
+<!-- GUID: Vermicelles Recipe: 1507000034 -->
+<!-- GUID: Vermicelles Recipe Beschreibung: 1507000035 -->
+<!-- GUID: Vermicelles Recipe Trigger Beschreibung: 1507000036 -->
+
+  </ModOp>
+</ModOps>

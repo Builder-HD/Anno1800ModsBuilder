@@ -1,0 +1,74 @@
+<ModOps>
+    <!-- ***************************************************************************************************** -->
+    <!-- ****************************************** Guildhouse Buff ****************************************** -->
+    <!-- ***************************************************************************************************** -->
+
+    <!-- Sawdust Buff -->
+    <ModOp Type="addnextSibling" GUID='110980'>
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000084</GUID>
+                    <Name>Collecting Sawdust</Name>
+                    <IconFilename>data/graphics/icons/sawdust.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>100451</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Collecting Sawdust</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>26354</LineID>
+                </Text>
+                <FactoryUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1507000082</Product>
+                            <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <BuildingUpgrade />
+                <Buff>
+                    <PossibleFluffTexts>
+                        <Item>
+                            <FluffText>22408</FluffText>
+                            <!--Caoutchouc in South America-->
+                        </Item>
+                    </PossibleFluffTexts>
+                </Buff>
+                <CultureUpgrade />
+                <ModuleOwnerUpgrade />
+                <IncidentInfectableUpgrade />
+                <PowerplantUpgrade />
+                <IndustrializableUpgrade />
+                <ItemContainerUpgrade />
+                <IncidentInfluencerUpgrade />
+                <IrrigationUpgrade />
+                <EcoSystemProviderUpgrade />
+                <ResourceUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Adding Buff to the Sawmill -->
+    <ModOp Type="replace" GUID='100451' Path="/Values/UpgradeList/">
+        <UpgradeList>
+            <DefaultBuff>1507000084</DefaultBuff>
+        </UpgradeList>
+    </ModOp>
+
+    <!-- ***************************************************************************************************** -->
+    <!-- ******************************************* Townhall Buff ******************************************* -->
+    <!-- ***************************************************************************************************** -->
+
+</ModOps>

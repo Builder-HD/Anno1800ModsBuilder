@@ -1,0 +1,14 @@
+<ModOps>
+   <ModOp Type="add" Path="/TextExport/Texts">
+    <!--    Anfang Code Spezialist  -   Mr Goldfinger   -->
+      <Text>
+        <GUID>10000000000157</GUID>
+        <Text>Mr Goldinger</Text>
+     </Text>
+     <Text>
+        <GUID>10000000000158</GUID>
+        <Text>Mr Goldinger is one of the only gentlemen who doesn't care if he gets dirty. He is feared because of his reforms in the gold mines of the New World and the iron mines of the Old World. The workers complain about the unfair working conditions, but he ignores any criticism and only makes them work even harder.</Text>
+     </Text>
+    <!--    Ende Code Spezialist  -   Mr Goldfinger   -->
+   </ModOp>
+</ModOps>

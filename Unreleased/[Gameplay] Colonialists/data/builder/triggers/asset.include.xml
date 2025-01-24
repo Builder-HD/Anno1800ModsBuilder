@@ -1,0 +1,175 @@
+<!-- GUID: Colonialist: 1507000086-->
+<!-- GUID: Colonialist Description: 1507000087-->
+<!-- GUID: Colonialist Workforce: 1507000088-->
+<!-- GUID: Colonialist Workforce Description: 1507000089-->
+<!-- GUID: Colonialist Satisfaction None: 1507000090-->
+<!-- GUID: Colonialist Satisfaction Unhappy: 1507000091-->
+<!-- GUID: Colonialist Satisfaction Content: 1507000092-->
+<!-- GUID: Colonialist Satisfaction Happy: 1507000093-->
+<!-- GUID: Colonialist Satisfaction Perfect: 1507000094-->
+<!-- GUID: Colonialist House: 1507000095-->
+<!-- GUID: Colonialist House Description: 1507000096-->
+<!-- GUID: Colonialist Construction Menu: 1507000097-->
+
+<!-- GUID: Newspaper: 1507000100-->
+<!-- GUID: Newspaper Description: 1507000101-->
+<!-- GUID: Fancy Dinners: 1507000102-->
+<!-- GUID: Fancy Dinners Description: 1507000103-->
+<!-- GUID: Ball Gowns: 1507000104-->
+<!-- GUID: Ball Gowns Description: 1507000105-->
+<!-- GUID: Pineapples: 1507000106-->
+<!-- GUID: Pineapples Description: 1507000107-->
+<!-- GUID: Chandelier: 1507000108-->
+<!-- GUID: Chandelier Description: 1507000109-->
+<!-- GUID: Marble Statues: 1507000110-->
+<!-- GUID: Marble Statues Description: 1507000111-->
+<!-- GUID: Exotic Pets: 1507000112-->
+<!-- GUID: Exotic Pets Description: 1507000113-->
+<!-- GUID: Diamonds: 1507000114-->
+<!-- GUID: Diamonds Description: 1507000115-->
+<ModOps>
+    <!--UNLOCK - CREATIVE -->
+    <ModOp Type="addnextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000080</GUID>
+                    <Name>TriggerCreative</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Values>
+                            <ConditionPropsNegatable />
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                        </Values>
+                        <Template>ConditionIsCreativeMode</Template>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                        <Item>
+                                                <Asset>1507000100</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000102</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000104</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000106</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000108</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000110</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000112</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000114</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000071</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000072</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000073</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000074</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000075</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000076</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000078</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000079</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000082</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000083</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000084</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000085</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000086</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000087</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000088</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000089</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000090</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000091</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000092</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000093</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000094</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000095</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000096</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1507000097</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1742100242</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1742100240</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>2100115089</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>2100115090</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

@@ -1,0 +1,418 @@
+<!-- GUID: Newspaper: 1507000100-->
+<!-- GUID: Newspaper Description: 1507000101-->
+<!-- GUID: Fancy Dinners: 1507000102-->
+<!-- GUID: Fancy Dinners Description: 1507000103-->
+<!-- GUID: Ball Gowns: 1507000104-->
+<!-- GUID: Ball Gowns Description: 1507000105-->
+<!-- GUID: Pineapples: 1507000106-->
+<!-- GUID: Pineapples Description: 1507000107-->
+<!-- GUID: Chandelier: 1507000108-->
+<!-- GUID: Chandelier Description: 1507000109-->
+<!-- GUID: Marble Statues: 1507000110-->
+<!-- GUID: Marble Statues Description: 1507000111-->
+<!-- GUID: Exotic Pets: 1507000112-->
+<!-- GUID: Exotic Pets Description: 1507000113-->
+<!-- GUID: Diamonds: 1507000114-->
+<!-- GUID: Diamonds Description: 1507000115-->
+
+<ModOps>
+    <!-- Sulfuric Acid -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000071</GUID>
+                    <Name>Sulfuric Acid</Name>
+                    <IconFilename>data/graphics/icons/icon_sulfuric_acid.dds</IconFilename>
+                    <InfoDescription>1507000072</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sulfuric Acid</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Locked>
+                    <DLCDependency>410084</DLCDependency>
+                </Locked>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>1060</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Moderate</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Moderate</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>10</BaseMorale>
+                    <Medicine>15</Medicine>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+    <!-- Add to Product List -->
+    <ModOp Type="add" GUID='120055' Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1507000071</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502020,502066,502012" Path="/Values/ProductList/List">
+        <Item>
+            <Product>1507000071</Product>
+        </Item>
+    </ModOp>
+
+    <!-- Newspapers -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000100</GUID>
+                    <Name>Newspapers</Name>
+                    <IconFilename>data/graphics/icons/icon_newspaper.dds</IconFilename>
+                    <InfoDescription>1507000101</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Newpapers</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>230</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Moderate</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Fancy Dinners -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000102</GUID>
+                    <Name>Fancy Dinner</Name>
+                    <IconFilename>data/graphics/icons/icon_fancy_dinner.dds</IconFilename>
+                    <InfoDescription>1507000103</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Fancy Dinner</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>600</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Moderate</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Ball Gowns -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000104</GUID>
+                    <Name>Ball Gowns</Name>
+                    <IconFilename>data/graphics/icons/icon_ball_gowns.dds</IconFilename>
+                    <InfoDescription>1507000105</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ball gowns</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>600</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Pineapples -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000106</GUID>
+                    <Name>Pineapples</Name>
+                    <IconFilename>data/graphics/icons/icon_pineapple.dds</IconFilename>
+                    <InfoDescription>1507000107</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pineapples</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>600</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Chandeliers -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000108</GUID>
+                    <Name>Chandeliers</Name>
+                    <IconFilename>data/graphics/icons/icon_chandeliers.dds</IconFilename>
+                    <InfoDescription>1507000109</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chandeliers</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>5848</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+        <!-- Marble Statues -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000110</GUID>
+                    <Name>Marble Statues</Name>
+                    <IconFilename>data/graphics/icons/icon_marble_statue.dds</IconFilename>
+                    <InfoDescription>1507000109</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Marble Statues</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>5848</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Marble Statues -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000112</GUID>
+                    <Name>Exotic Pets</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_black_panther.png</IconFilename>
+                    <InfoDescription>1507000113</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Exotic Pets</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>5848</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Diamonds -->
+    <ModOp Type="addnextSibling" GUID="133185">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000114</GUID>
+                    <Name>Diamond</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_gem_diamond.png</IconFilename>
+                    <InfoDescription>1507000115</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chandeliers</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>50534</LineID>
+                </Text>
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11704</ProductCategory>
+                    <BasePrice>3740</BasePrice>
+                    <CivLevel>3</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <Diplomacy>15</Diplomacy>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add to Product List -->
+    <!-- Sulfuric Acid-->
+    <ModOp Type="add" GUID='120055' Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1507000071</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502020,502066,502012" Path="/Values/ProductList/List">
+        <Item>
+            <Product>1507000071</Product>
+        </Item>
+    </ModOp>
+
+    <!-- Newspapers-->
+    <ModOp Type="add" GUID='120055' Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1507000100</Product>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="502020,502066,502012" Path="/Values/ProductList/List">
+        <Item>
+            <Product>1507000100</Product>
+        </Item>
+    </ModOp>
+
+</ModOps>

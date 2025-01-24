@@ -1,0 +1,52 @@
+{
+	"Version": "1.00",
+	"ModID": "icon_change_mod",
+	"IncompatibleIds": [],
+	"ModDependencies": [
+		
+	],
+	"ModioID": 999999,
+	"Category": {
+		"Chinese": "Gameplay",
+		"English": "Gameplay",
+		"French": "Gameplay",
+		"German": "Gameplay",
+		"Italian": "Gameplay",
+		"Korean": "Gameplay",
+		"Polish": "Gameplay",
+		"Russian": "Gameplay",
+		"Spanish": "Gameplay",
+		"Taiwanese": "Gameplay"
+	},
+	"ModName": {
+		"Chinese": "Icon Changing Mod",
+		"English": "Icon Changing Mod",
+		"French": "Icon Changing Mod",
+		"German": "Icon Changing Mod",
+		"Italian": "Icon Changing Mod",
+		"Korean": "Icon Changing Mod",
+		"Polish": "Icon Changing Mod",
+		"Russian": "Icon Changing Mod",
+		"Spanish": "Icon Changing Mod",
+		"Taiwanese": "Icon Changing Mod"
+	},
+	"Description": {
+		"Chinese": "Changes the Icon of Ferras.",
+		"English": "Changes the Icon of Ferras.",
+		"French": "Changes the Icon of Ferras.",
+		"German": "Changes the Icon of Ferras.",
+		"Italian": "Changes the Icon of Ferras.",
+		"Korean": "Changes the Icon of Ferras.",
+		"Polish": "Changes the Icon of Ferras.",
+		"Russian": "Changes the Icon of Ferras.",
+		"Spanish": "Changes the Icon of Ferras.",
+		"Taiwanese": "Changes the Icon of Ferras."
+	},
+	"KnownIssues": null,
+	"DLCDependencies": [
+		{
+			
+		}
+	],
+	"CreatorName": "Your Name"
+}

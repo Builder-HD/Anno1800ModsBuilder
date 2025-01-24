@@ -1,0 +1,85 @@
+<ModOps>
+    <!-- **************************************************************************************************** -->
+    <!-- ******************************************* Recipe Lists ******************************************* -->
+    <!-- **************************************************************************************************** -->
+    <!-- Recipe List Advanced Chemical Plant -->
+    <ModOp Type="addnextSibling" GUID="132774">
+        <Template>RecipeList</Template>
+        <Values>
+            <RecipeList>
+                <Recipes>
+                    <Item>
+                        <Recipe>1507000073</Recipe>
+                    </Item>
+                    <Item>
+                        <Recipe>1507000073</Recipe>
+                    </Item>
+                </Recipes>
+                <RecipeListType>Factory</RecipeListType>
+                <RecipeListMoodImage>
+                    data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_chemical.png</RecipeListMoodImage>
+                <RecipeListDescription>134029</RecipeListDescription>
+            </RecipeList>
+            <Standard>
+                <GUID>1507000081</GUID>
+                <Name>RecipeList_Advanced_Chemical</Name>
+            </Standard>
+            <Text />
+        </Values>
+    </ModOp>
+
+    <!-- *************************************************************************************************** -->
+    <!-- ********************************************* Recipes ********************************************* -->
+    <!-- *************************************************************************************************** -->
+
+    <!-- Sulfuric Acid -->
+    <ModOp Type="addnextSibling" GUID="132778">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1507000073</GUID>
+                    <Name>Recipe_Sulfuric_Acid</Name>
+                    <IconFilename>data/graphics/icons/icon_sulfuric_acid.dds</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sulfuric Acid</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>52419</LineID>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1507000075</RecipeBuilding>
+                    <RecipeDescriptionText>1507000074</RecipeDescriptionText>
+                    <RecipeImage>
+                        data/ui/2kimages/main/assets/recipebook/tree_planter/recipebook_planter_fir_resin.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>26</PosX>
+                            <PosY>10</PosY>
+                        </Item>
+                        <Item>
+                            <PosX>340</PosX>
+                            <PosY>72</PosY>
+                        </Item>
+                        <Item>
+                            <PosX>60</PosX>
+                            <PosY>226</PosY>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>1507000077</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="132774" Path="/Values/RecipeList/Recipes">
+        <Item>
+            <Recipe>1507000073</Recipe>
+        </Item>
+    </ModOp>
+</ModOps>

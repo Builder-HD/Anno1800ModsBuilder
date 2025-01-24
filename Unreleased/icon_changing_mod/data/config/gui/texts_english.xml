@@ -1,0 +1,13 @@
+<!-- Here you can Add Translations.-->
+<!-- texts_english.xml is english texts_german.xml would be german and so on.-->
+
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <!-- Here you can Add the GUID of the Item you want to translate. Here i added Feras for the example so it overwrites Feras Name.-->
+      <GUID>192450</GUID>
+      <!-- In the Text section you add the Text you want it to be. Important note if you make a new Item and dont add any text at all it will just be blank with no name displayed at all.-->
+      <Text>Feras Alsarami the OP guy</Text>
+    </Text>
+  </ModOp>
+</ModOps>
